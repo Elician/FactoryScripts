@@ -1,0 +1,18 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Deploy Scripts
+
+on:
+  push:
+    tags:
+      - '**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run a one-line script
+        run: sh deploy.sh ${{ secrets.BEARER_TOKEN }}
