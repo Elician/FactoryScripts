@@ -1,20 +1,84 @@
-#Что бы добавить предмет в простой верстак 
+# Скрипты сервера Factory
 
-recipes.addShaped(<предмет> * 1, [[null, null, null],[null, null, null], [null, null, null]]);
+Данный репозиторий создан для хранения скриптов сервера Factory. Настроена автоматическая отправка изменений.
 
+Вы можете создать Pull Request, если хотите помочь в создании сервера или исправить существующий баг.
+
+
+**Добавление рецепта в верстак:**
+```js
 recipes.addShaped(null, [
     [null, null, null],
     [null, null, null],
     [null, null, null]
 ]);
+```
 
+**Добавление рецепта в свободном положении:**
+```js
 recipes.addShapeless(null, [null, null]);
+```
 
-#Удаление предмета
+**Удаление предмета:**
+```js
+removeExist(null);
+```
 
+**Частый кейс:**
+```js
 removeExist(null);
 recipes.addShaped(null, [
     [null, null, null],
     [null, null, null],
     [null, null, null]
 ]);
+```
+
+## Extended Crafting integration
+
+**Импорт:**
+```zenscript
+import mods.extendedcrafting.TableCrafting;
+```
+
+**Изменение крафта в верстаке 5х5:**
+```ts
+removeExist(null);
+TableCrafting.addShaped(2, <output>, [
+    [null, null, null, null, null], 
+    [null, null, null, null, null], 
+    [null, null, null, null, null], 
+    [null, null, null, null, null], 
+    [null, null, null, null, null]
+]);
+```
+
+**Изменение крафта в верстаке 7х7:**
+```ts
+removeExist(null);
+TableCrafting.addShaped(3, <output>, [
+    [null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null]
+]);
+```
+
+**Изменение крафта в верстаке 7х7:**
+```ts
+removeExist(null);
+TableCrafting.addShaped(4, <output>, [
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null]
+]);
+```
