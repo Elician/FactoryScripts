@@ -38,7 +38,6 @@ removeExist(<forestry:miner_bag_t2>);
 removeExist(<forestry:miner_bag>);
 removeExist(<forestry:lepidopterist_bag>);
 removeExist(<forestry:apiarist_bag>);
-removeExist(<advanced_solar_panels:machines>);
 removeExist(<thermaldynamics:servo> * 2);
 removeExist(<ic2:resource:13>);
 removeExist(<nuclearcraft:part> * 2);
@@ -112,7 +111,6 @@ recipes.addShaped(<draconicevolution:wyvern_shovel:*>, [
 
 recipes.addShaped(<ic2:mining_laser:*>, [[<nuclearcraft:compound:2>, <nuclearcraft:compound:2>, <ic2:lapotron_crystal:*>],[<ic2:crafting:3>, <ic2:crafting:3>, <ic2:crafting:2>], [null, null, <ic2:crafting:3>]]);
 recipes.addShaped(<ic2:lapotron_crystal:*>, [[<forestry:thermionic_tubes:11>, <ic2:energy_crystal:*>, <forestry:thermionic_tubes:11>],[<ore:energyCrystal>, <ic2:crafting:2>, <ore:energyCrystal>], [<forestry:thermionic_tubes:11>, <ic2:energy_crystal:*>, <forestry:thermionic_tubes:11>]]);
-recipes.addShaped(<advanced_solar_panels:machines>, [[<ic2:resource:13>, <ic2:te:80>, <ic2:resource:13>],[<advanced_solar_panels:crafting:12>, <ic2:lapotron_crystal:*>, <advanced_solar_panels:crafting:12>], [<ic2:resource:13>, <ic2:te:80>, <ic2:resource:13>]]);
 recipes.addShaped(<thermaldynamics:servo> * 3, [[null, null, null],[null, <ore:blockGlassColorless>, null], [<ore:plateIron>, <ic2:crafting:6>, <ore:plateIron>]]);
 recipes.addShaped(<ic2:resource:13>, [[<ore:plateSteel>, <nuclearcraft:part>, <ore:plateSteel>],[<ic2:crafting:15>, <ic2:resource:12>, <ic2:crafting:15>], [<ore:plateSteel>, <nuclearcraft:part>, <ore:plateSteel>]]);
 recipes.addShaped(<ic2:resource:13>, [[<ore:plateSteel>, <ic2:crafting:15>, <ore:plateSteel>],[<nuclearcraft:part>, <ic2:resource:12>, <nuclearcraft:part>], [<ore:plateSteel>, <ic2:crafting:15>, <ore:plateSteel>]]);

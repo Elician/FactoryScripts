@@ -63,8 +63,11 @@ removeExist(<appliedenergistics2:part:120>);
 recipes.addShapeless(<appliedenergistics2:part:120> * 4, [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <noxus_utilities:netherite_scrap>]);
 
 recipes.addShaped(<appliedenergistics2:crafting_unit>, [[<ore:plateSteel>, <appliedenergistics2:part:16>, <ore:plateSteel>],[<appliedenergistics2:material:23>, <ic2:crafting:2>, <appliedenergistics2:material:23>], [<ore:plateSteel>, <appliedenergistics2:part:16>, <ore:plateSteel>]]);
-recipes.addShaped(<appliedenergistics2:material:15>, [[<advanced_solar_panels:crafting:11>, <advanced_solar_panels:crafting:11>, <advanced_solar_panels:crafting:11>],[<advanced_solar_panels:crafting:11>, <thermalfoundation:material:136>, <advanced_solar_panels:crafting:11>], [<advanced_solar_panels:crafting:11>, <advanced_solar_panels:crafting:11>, <advanced_solar_panels:crafting:11>]]);
-recipes.addShaped(<appliedenergistics2:material:14>, [[<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>],[<thermalfoundation:material:160>, <draconicevolution:draconium_ingot>, <thermalfoundation:material:160>], [<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>]]);
+recipes.addShaped(<appliedenergistics2:material:14>, [
+    [<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>],
+    [<thermalfoundation:material:160>, <draconicevolution:draconium_ingot>, <thermalfoundation:material:160>], 
+    [<thermalfoundation:material:160>, <thermalfoundation:material:160>, <thermalfoundation:material:160>]
+]);
 
 recipes.addShaped(<appliedenergistics2:charger>, [[<ore:plateSteel>, <appliedenergistics2:material:12>, <ore:plateSteel>],[<ic2:crafting:5>, <ic2:crafting:2>, <ic2:crafting:5>], [<ore:plateSteel>, <appliedenergistics2:material:12>, <ore:plateSteel>]]);
 recipes.addShaped(<appliedenergistics2:charger>, [[<ore:plateSteel>, <appliedenergistics2:material:7>, <ore:plateSteel>],[<ic2:crafting:5>, <ic2:crafting:2>, <ic2:crafting:5>], [<ore:plateSteel>, <appliedenergistics2:material:7>, <ore:plateSteel>]]);

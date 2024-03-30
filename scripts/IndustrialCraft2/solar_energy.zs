@@ -3,12 +3,6 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 
 var removeIngredients as IItemStack[] = [
-    <advanced_solar_panels:machines:2>,
-    <advanced_solar_panels:machines:3>,
-    <advanced_solar_panels:machines:4>,
-    <advanced_solar_panels:machines:5>,
-    <advanced_solar_panels:hybridsolarhelmet>,
-    <advanced_solar_panels:ultimatesolarhelmet>,
     <nuclearcraft:solar_panel_basic>,
     <nuclearcraft:solar_panel_du>,
     <nuclearcraft:solar_panel_elite>,

@@ -84,7 +84,7 @@ alloy_furnace.addRecipe([
 removeExist(<nuclearcraft:decay_generator>);
 recipes.addShaped(<nuclearcraft:decay_generator>, [
     [<thermalfoundation:material:323>, <thermalfoundation:material:323>, <thermalfoundation:material:323>],
-    [<thermalfoundation:material:323>, <advanced_solar_panels:crafting:3>, <thermalfoundation:material:323>],
+    [<thermalfoundation:material:323>, null, <thermalfoundation:material:323>],
     [<thermalfoundation:material:323>, <thermalfoundation:material:323>, <thermalfoundation:material:323>]
 ]);
 

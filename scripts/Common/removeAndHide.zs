@@ -50,7 +50,6 @@ var removeIngredients as IItemStack[] = [
 	<minecraft:spawn_egg:*>,
 	<minecraft:end_portal_frame>,
 	<alchemistry:milk>,
-	<appliedenergistics2:facade>.withTag({damage: 0, item: "advanced_solar_panels:double_stone_slab"}),
 	<energycontrol:afsu_upgrade_kit>,
 	<forestry:stamps:*>,
 
@@ -249,8 +248,6 @@ var removeIngredients as IItemStack[] = [
 	<minecraft:wooden_axe>,
 	<minecraft:wooden_shovel>,
 	<minecraft:wooden_sword>,
-
-	<advanced_solar_panels:double_stone_slab>,
 	<ic2:te:82>,
 
 	<minecraft:chainmail_chestplate>,
