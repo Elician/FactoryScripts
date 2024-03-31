@@ -2,7 +2,7 @@ removeExist(<thermalexpansion:machine:7>);
 
 recipes.addShaped(<thermalexpansion:machine:7>, [
     [null, <thermalfoundation:glass:5>, null],
-    [<ic2:crafting:66>, <thermalexpansion:frame>, <ic2:crafting:66>],
+    [<ic2:crafting:2>, <thermalexpansion:frame>, <ic2:crafting:2>],
     [<thermalfoundation:material:25>, <thermalfoundation:material:513>, <thermalfoundation:material:25>]
 ]);
 

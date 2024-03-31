@@ -61,7 +61,6 @@ removeExist(<ic2:cover>);
 removeExist(<ic2:static_boots>);
 removeExist(<ic2:scanner:*>);
 removeExist(<ic2:remote>);
-removeExist(<ic2:cropnalyzer:*>);
 removeExist(<ic2:boat:3>);
 removeExist(<ic2:single_use_battery>);
 removeExist(<ic2:te:65>);

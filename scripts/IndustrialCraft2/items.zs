@@ -70,3 +70,24 @@ recipes.addShaped(<ic2:crafting:70>, [
     [<ic2:crafting:69>, <ic2:crafting:66>, <ic2:crafting:69>],
     [<ic2:crafting:69>, <ic2:crafting:69>, <ic2:crafting:69>]
 ]);
+
+removeExist(<ic2:cropnalyzer>);
+recipes.addShaped(<ic2:cropnalyzer>, [
+    [<thermalfoundation:material:166>, <ic2:electric_hoe:*>, <thermalfoundation:material:166>],
+    [<ic2:crafting:2>, <ic2:crafting:7>, <ic2:crafting:2>],
+    [<ic2:glass>, <ic2:crafting:2>, <ic2:glass>]
+]);
+
+removeExist(<ic2:scanner:*>);
+recipes.addShaped(<ic2:scanner>, [
+    [<nuclearcraft:cooler:4>, <minecraft:diamond>, <nuclearcraft:cooler:4>],
+    [<minecraft:diamond>, <ic2:crafting:44>, <minecraft:diamond>],
+    [<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:charging_re_battery:*>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})]
+]);
+
+removeExist(<ic2:advanced_scanner:*>);
+recipes.addShaped(<ic2:advanced_scanner>, [
+    [<thermalfoundation:material:165>, <ic2:misc_resource:3>, <thermalfoundation:material:165>],
+    [<ic2:crafting:44>, <ic2:scanner:*>, <ic2:crafting:44>],
+    [<thermalfoundation:material:165>, <ic2:misc_resource:3>, <thermalfoundation:material:165>]
+]);
