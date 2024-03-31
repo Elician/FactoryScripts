@@ -42,3 +42,31 @@ recipes.addShaped(<ic2:afb_crystal>, [
 
 removeExist(<ic2:frequency_transmitter>);
 recipes.addShapeless(<ic2:frequency_transmitter>, [<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:crafting:2>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})]);
+
+removeExist(<ic2:crafting:78>);
+recipes.addShaped(<ic2:crafting:78>, [
+    [<ic2:crafting:72>, <ic2:thick_neutron_reflector>, <ic2:crafting:72>],
+    [<ic2:crafting:72>, <ic2:thick_neutron_reflector>, <ic2:crafting:72>],
+    [<ic2:crafting:72>, <ic2:thick_neutron_reflector>, <ic2:crafting:72>]
+]);
+
+removeExist(<ic2:crafting:72>);
+recipes.addShaped(<ic2:crafting:72>, [
+    [<ic2:glass>, <ic2:glass>, <ic2:glass>],
+    [<ic2:crafting:69>, <nuclearcraft:compound:2>, <ic2:crafting:69>],
+    [<ic2:glass>, <ic2:glass>, <ic2:glass>]
+]);
+
+removeExist(<ic2:crafting:69>);
+recipes.addShaped(<ic2:crafting:69>, [
+    [<nuclearcraft:compound:2>, <nuclearcraft:compound:2>, <nuclearcraft:compound:2>],
+    [<nuclearcraft:compound:2>, <ic2:ingot:8>, <nuclearcraft:compound:2>],
+    [<nuclearcraft:compound:2>, <nuclearcraft:compound:2>, <nuclearcraft:compound:2>]
+]);
+
+removeExist(<ic2:crafting:70>);
+recipes.addShaped(<ic2:crafting:70>, [
+    [<ic2:crafting:69>, <ic2:crafting:69>, <ic2:crafting:69>],
+    [<ic2:crafting:69>, <ic2:crafting:66>, <ic2:crafting:69>],
+    [<ic2:crafting:69>, <ic2:crafting:69>, <ic2:crafting:69>]
+]);

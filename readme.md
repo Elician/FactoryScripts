@@ -82,3 +82,10 @@ TableCrafting.addShaped(4, <output>, [
     [null, null, null, null, null, null, null, null, null]
 ]);
 ```
+
+**Добавление предмета в молекулярный преобразователь:**
+```ts
+import mods.ic2.MolecularTransformer;
+
+MolecularTransformer.addRecipe(output, input, energy);
+```
