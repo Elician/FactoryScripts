@@ -93,3 +93,10 @@ recipes.addShaped(<draconicevolution:draconium_block>, [
     [<draconicevolution:draconium_ingot>, <noxus_utilities:crying_obsidian>, <draconicevolution:draconium_ingot>],
     [<draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>]
 ]);
+
+removeExist(<draconicevolution:dislocator_pedestal>);
+recipes.addShaped(<draconicevolution:dislocator_pedestal>, [
+    [null, null, null],
+    [null, <ic2:crafting:44>, null],
+    [<ic2:crafting:63>, <ic2:crafting:63>, <ic2:crafting:63>]
+]);
