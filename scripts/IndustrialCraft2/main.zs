@@ -134,8 +134,8 @@ recipes.addShaped(<ic2:resource:12>, [
     [<ore:plateIron>, <ore:plateBasic>, <ore:plateIron>]
 ]);
 
-removeExist(<ic2:re_battery>);
-recipes.addShaped(<ic2:re_battery>, [
+removeExist(<ic2:re_battery:*>);
+recipes.addShaped(<ic2:re_battery:26>, [
     [null, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}), null],
     [<ic2:casing:6>, <ore:dustEnergetic>, <ic2:casing:6>],
     [<ic2:casing:6>, <ore:dustEnergetic>, <ic2:casing:6>]

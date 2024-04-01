@@ -264,7 +264,8 @@ var removeIngredients as IItemStack[] = [
 	<draconicevolution:celestial_manipulator>,
 
 	<appliedenergistics2:nether_quartz_cutting_knife>,
-	<appliedenergistics2:certus_quartz_cutting_knife>
+	<appliedenergistics2:certus_quartz_cutting_knife>,
+	<extendedcrafting:crafting_table>
 ];
 
 for ingredient in removeIngredients {
