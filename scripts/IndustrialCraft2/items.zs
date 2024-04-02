@@ -91,3 +91,10 @@ recipes.addShaped(<ic2:advanced_scanner>, [
     [<ic2:crafting:44>, <ic2:scanner:*>, <ic2:crafting:44>],
     [<thermalfoundation:material:165>, <ic2:misc_resource:3>, <thermalfoundation:material:165>]
 ]);
+
+removeExist(<ic2:upgrade:15>);
+recipes.addShaped(<ic2:upgrade:15>, [
+    [<ic2:upgrade:2>, <ic2:crafting:43>, <ic2:upgrade:2>],
+    [<ic2:crafting:43>, <ic2:crafting:70>, <ic2:crafting:43>],
+    [<ic2:upgrade:2>, <ic2:crafting:43>, <ic2:upgrade:2>]
+]);
