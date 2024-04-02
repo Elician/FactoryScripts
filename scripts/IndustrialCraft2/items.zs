@@ -98,3 +98,10 @@ recipes.addShaped(<ic2:upgrade:15>, [
     [<ic2:crafting:43>, <ic2:crafting:70>, <ic2:crafting:43>],
     [<ic2:upgrade:2>, <ic2:crafting:43>, <ic2:upgrade:2>]
 ]);
+
+removeExist(<ic2:te:49>);
+recipes.addShaped(<ic2:te:49>, [
+    [<ic2:dust:6>, <ic2:crafting:10>, <ic2:dust:6>],
+    [<ic2:dust:6>, <ic2:crafting:10>, <ic2:dust:6>],
+    [<ic2:crafting:2>, <thermalexpansion:frame>, <ic2:crafting:2>]
+]);

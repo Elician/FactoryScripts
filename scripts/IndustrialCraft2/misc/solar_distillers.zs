@@ -7,9 +7,9 @@ recipes.addShaped(<ic2:te:33>, [
 
 removeExist(<ic2:te:170>);
 recipes.addShaped(<ic2:te:170>, [
-    [<ic2:upgrade:2>, <ic2:te:33>, <ic2:upgrade:2>],
+    [<ic2:upgrade:1>, <ic2:te:33>, <ic2:upgrade:1>],
     [<ic2:te:33>, <ic2:crafting:44>, <ic2:te:33>],
-    [<ic2:upgrade:2>, <ic2:te:33>, <ic2:upgrade:2>]
+    [<ic2:upgrade:1>, <ic2:te:33>, <ic2:upgrade:1>]
 ]);
 
 removeExist(<ic2:te:171>);

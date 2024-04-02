@@ -101,3 +101,10 @@ recipes.addShaped(<nuclearcraft:cooler:2>, [
     [<minecraft:redstone_block>, <nuclearcraft:cooler>, <minecraft:redstone_block>],
     [<minecraft:redstone_block>, <minecraft:redstone_block>, <minecraft:redstone_block>]
 ]);
+
+removeExist(<nuclearcraft:part:11>);
+recipes.addShaped(<nuclearcraft:part:11>, [
+    [<nuclearcraft:part>, <appliedenergistics2:quartz_vibrant_glass>, <nuclearcraft:part>],
+    [<appliedenergistics2:quartz_vibrant_glass>, <thermalexpansion:frame:64>, <appliedenergistics2:quartz_vibrant_glass>],
+    [<nuclearcraft:part>, <appliedenergistics2:quartz_vibrant_glass>, <nuclearcraft:part>]
+]);
