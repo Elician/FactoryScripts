@@ -4,8 +4,7 @@ name: Deploy Scripts
 
 on:
   push:
-    tags:
-      - '**'
+    branches: ["main"]
 
 jobs:
   build:

@@ -15,8 +15,8 @@ recipes.addShaped(<bigreactors:reactorcasingcores>, [
 ]);
 
 removeExist(<bigreactors:reactorcontroller>);
-// recipes.addShaped(<bigreactors:reactorcontroller>, [
-//     [<bigreactors:reactorcasing>, <minecraft:comparator>, <bigreactors:reactorcasing>],
-//     [<advanced_solar_panels:crafting:3>, <nuclearcraft:cooler:7>, <advanced_solar_panels:crafting:3>],
-//     [<bigreactors:reactorcasing>, <nuclearcraft:compound:2>, <bigreactors:reactorcasing>]
-// ]);
+recipes.addShaped(<bigreactors:reactorcontroller>, [
+    [<bigreactors:reactorcasing>, <minecraft:comparator>, <bigreactors:reactorcasing>],
+    [<ic2:crafting:70>, <nuclearcraft:cooler:7>, <ic2:crafting:70>],
+    [<bigreactors:reactorcasing>, <nuclearcraft:compound:2>, <bigreactors:reactorcasing>]
+]);

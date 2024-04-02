@@ -42,3 +42,10 @@ recipes.addShaped(<openblocks:vacuum_hopper>, [
     [<minecraft:hopper>, <extendedcrafting:storage:5>, <minecraft:hopper>],
     [<minecraft:hopper>, <minecraft:hopper>, <minecraft:hopper>]
 ]);
+
+removeExist(<openblocks:tank>);
+recipes.addShaped(<openblocks:tank>, [
+    [<noxus_utilities:crying_obsidian>, <appliedenergistics2:quartz_glass>, <noxus_utilities:crying_obsidian>],
+    [<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>],
+    [<noxus_utilities:crying_obsidian>, <appliedenergistics2:quartz_glass>, <noxus_utilities:crying_obsidian>]
+]);
