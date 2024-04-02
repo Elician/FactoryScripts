@@ -31,7 +31,6 @@ val heatVent = <ic2:component_heat_vent>;//продвинутый теплооб
 val ferumPlate = <ore:plateIron>;//железная палстина
 val ferumStalePlate = <ore:plateSteel>;//стальная палстина
 val advenxedStalePlate = <ic2:plate:16>;//укреплённая стальная пластина
-val agregat = <ic2:crafting:12>;//силовой агрегат
 val composite = <ic2:crafting:3>;//композит
 val plateTin = <ore:plateTin>;//оловянная пластина
 
