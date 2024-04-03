@@ -80,12 +80,9 @@ removeExist(<minecraft:anvil>);
 removeExist(<thermalexpansion:capacitor>);
 removeExist(<energycontrol:item_card:18>);
 removeExist(<energycontrol:item_card:19>);
-removeExist(<energycontrol:kit_assembler>);
 removeExist(<energycontrol:portable_panel>);
 removeExist(<energycontrol:average_counter>);
 removeExist(<energycontrol:energy_counter>);
-removeExist(<energycontrol:item_upgrade:2>);
-removeExist(<energycontrol:item_upgrade>);
 removeExist(<thermalfoundation:material:513>);
 
 //ADD
