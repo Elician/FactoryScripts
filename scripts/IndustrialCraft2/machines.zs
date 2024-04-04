@@ -10,6 +10,6 @@ Macerator.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:mater
 
 ThermalCentrifuge.addRecipe([
     <noxus_utilities:netherite_scrap>, 
-    <ic2:dust:15>, 
-    <minecraft:nether_star>
+    <ic2:dust:15>,
+    null
 ], <ic2:plate:16>);
