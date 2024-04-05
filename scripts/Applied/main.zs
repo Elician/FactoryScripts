@@ -1,8 +1,3 @@
-/*
-
-Recipes for Elician (Factory) BY Dmitry Sidorov (https://justydev.ru)
-
-*/
 
 val plateSteel = <ore:plateSteel>;//железная пластина
 val stickyPiston = <minecraft:sticky_piston>;//липкий поршень
