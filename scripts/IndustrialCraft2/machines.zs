@@ -7,9 +7,3 @@ Macerator.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:mater
 Macerator.addRecipe(<appliedenergistics2:material:46>, <thermalfoundation:material:895>);
 Macerator.addRecipe(<jaopca:item_dustchargedcertusquartz>, <appliedenergistics2:material:1>);
 Macerator.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material>);
-
-ThermalCentrifuge.addRecipe([
-    <noxus_utilities:netherite_scrap>, 
-    <ic2:dust:15>,
-    null
-], <ic2:plate:16>);
