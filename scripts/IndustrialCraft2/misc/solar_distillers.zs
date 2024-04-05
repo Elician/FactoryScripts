@@ -7,14 +7,14 @@ recipes.addShaped(<ic2:te:33>, [
 
 removeExist(<ic2:te:170>);
 recipes.addShaped(<ic2:te:170>, [
-    [<ic2:upgrade:1>, <ic2:te:33>, <ic2:upgrade:1>],
-    [<ic2:te:33>, <ic2:crafting:44>, <ic2:te:33>],
-    [<ic2:upgrade:1>, <ic2:te:33>, <ic2:upgrade:1>]
+    [<ic2:upgrade>, <ic2:te:33>, <ic2:upgrade>],
+    [<ic2:te:33>, <ic2:crafting:2>, <ic2:te:33>],
+    [<ic2:upgrade>, <ic2:te:33>, <ic2:upgrade>]
 ]);
 
 removeExist(<ic2:te:171>);
 recipes.addShaped(<ic2:te:171>, [
-    [<ic2:crafting:45>, <ic2:te:170>, <ic2:crafting:45>],
-    [<ic2:te:170>, <ic2:crafting:4>, <ic2:te:170>],
-    [<ic2:crafting:45>, <ic2:te:170>, <ic2:crafting:45>]
+    [<ic2:misc_resource:3>, <ic2:te:170>, <ic2:misc_resource:3>],
+    [<ic2:te:170>, <ic2:crafting:44>, <ic2:te:170>],
+    [<ic2:misc_resource:3>, <ic2:te:170>, <ic2:misc_resource:3>]
 ]);

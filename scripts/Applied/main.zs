@@ -60,7 +60,7 @@ recipes.addShaped(<appliedenergistics2:part:180>, [
 ]);
 
 removeExist(<appliedenergistics2:part:120>);
-recipes.addShapeless(<appliedenergistics2:part:120> * 4, [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <noxus_utilities:netherite_scrap>]);
+recipes.addShapeless(<appliedenergistics2:part:120> * 4, [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:emerald>]);
 
 recipes.addShaped(<appliedenergistics2:crafting_unit>, [[<ore:plateSteel>, <appliedenergistics2:part:16>, <ore:plateSteel>],[<appliedenergistics2:material:23>, <ic2:crafting:2>, <appliedenergistics2:material:23>], [<ore:plateSteel>, <appliedenergistics2:part:16>, <ore:plateSteel>]]);
 recipes.addShaped(<appliedenergistics2:material:14>, [

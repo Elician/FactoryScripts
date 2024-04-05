@@ -108,3 +108,31 @@ recipes.addShaped(<nuclearcraft:part:11>, [
     [<appliedenergistics2:quartz_vibrant_glass>, <thermalexpansion:frame:64>, <appliedenergistics2:quartz_vibrant_glass>],
     [<nuclearcraft:part>, <appliedenergistics2:quartz_vibrant_glass>, <nuclearcraft:part>]
 ]);
+
+removeExist(<nuclearcraft:part:1>);
+recipes.addShaped(<nuclearcraft:part:1>, [
+    [<nuclearcraft:alloy:1>, <ic2:plate:17>, <nuclearcraft:alloy:1>],
+    [<ic2:plate:17>, <nuclearcraft:part>, <ic2:plate:17>],
+    [<nuclearcraft:alloy:1>, <ic2:plate:17>, <nuclearcraft:alloy:1>]
+]);
+
+removeExist(<nuclearcraft:part:2>);
+recipes.addShaped(<nuclearcraft:part:2>, [
+    [<ic2:crafting:67>, <ore:ingotUranium238>, <ic2:crafting:67>],
+    [<ore:ingotUranium238>, <nuclearcraft:part:1>, <ore:ingotUranium238>],
+    [<ic2:crafting:67>, <ore:ingotUranium238>, <ic2:crafting:67>]
+]);
+
+removeExist(<nuclearcraft:reactor_casing_transparent>);
+recipes.addShaped(<nuclearcraft:reactor_casing_transparent>, [
+    [<appliedenergistics2:quartz_vibrant_glass>, <nuclearcraft:part>, <appliedenergistics2:quartz_vibrant_glass>],
+    [<nuclearcraft:part>, <nuclearcraft:alloy:1>, <nuclearcraft:part>],
+    [<appliedenergistics2:quartz_vibrant_glass>, <nuclearcraft:part>, <appliedenergistics2:quartz_vibrant_glass>]
+]);
+
+removeExist(<nuclearcraft:fission_block>);
+recipes.addShaped(<nuclearcraft:fission_block>, [
+    [null, <nuclearcraft:part>, null],
+    [<nuclearcraft:part>, <nuclearcraft:alloy:1>, <nuclearcraft:part>],
+    [null, <nuclearcraft:part>, null]
+]);

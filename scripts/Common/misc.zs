@@ -121,7 +121,7 @@ recipes.addShaped(<alchemistry:chemical_combiner>, [
 recipes.addShaped(<alchemistry:chemical_dissolver>, [
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
     [<ic2:crafting:4>, <ic2:crafting:5>, <ic2:crafting:4>], 
-    [<ic2:crafting:46>, <minecraft:sticky_piston>, <ic2:crafting:46>]
+    [<ic2:crafting:47>, <minecraft:sticky_piston>, <ic2:crafting:47>]
     ]);
 
 recipes.addShaped(<ic2:alloy_chestplate>, [[<ic2:crafting:3>, null, <ic2:crafting:3>],[<ic2:crafting:3>, <minecraft:golden_chestplate>, <ic2:crafting:3>], [<ic2:crafting:3>, <minecraft:leather_chestplate>, <ic2:crafting:3>]]);
@@ -150,4 +150,11 @@ recipes.addShaped(<minecraft:end_rod>, [
     [null, <minecraft:blaze_rod>, null],
     [null, <minecraft:chorus_fruit_popped>, null],
     [null, null, null]
+]);
+
+removeExist(<tesseract:tesseract>);
+recipes.addShaped(<tesseract:tesseract>, [
+    [<draconicevolution:infused_obsidian>, <thermalfoundation:material:323>, <draconicevolution:infused_obsidian>],
+    [<thermalfoundation:material:323>, <minecraft:diamond_block>, <thermalfoundation:material:323>],
+    [<draconicevolution:infused_obsidian>, <thermalfoundation:material:323>, <draconicevolution:infused_obsidian>]
 ]);
