@@ -17,10 +17,11 @@ removeExist(<draconicevolution:wyvern_shovel:*>);
 removeExist(<ic2:mining_laser:*>);
 removeExist(<ic2:lapotron_crystal:*>);
 removeExist(<minecraft:enchanting_table>);
-removeExist(<fluxnetworks:fluxpoint>);
+
 removeExist(<fluxnetworks:fluxplug>);
 removeExist(<fluxnetworks:fluxstorage>);
 removeExist(<fluxnetworks:fluxblock>);
+
 removeExist(<draconicevolution:fusion_crafting_core>);
 removeExist(<draconicevolution:crafting_injector>);
 removeExist(<ic2:resource:12>);
@@ -139,9 +140,11 @@ recipes.addShaped(<thermalfoundation:material:515>, [[null, <ic2:dust:9>, <minec
 recipes.addShaped(<nuclearcraft:cobblestone_generator_dense>, [[<nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>],[<nuclearcraft:cobblestone_generator_compact>, <draconicevolution:wyvern_energy_core>, <nuclearcraft:cobblestone_generator_compact>], [<nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>, <nuclearcraft:cobblestone_generator_compact>]]);
 recipes.addShaped(<nuclearcraft:cobblestone_generator_compact>, [[<nuclearcraft:cobblestone_generator>, <nuclearcraft:cobblestone_generator>, <nuclearcraft:cobblestone_generator>],[<nuclearcraft:cobblestone_generator>, <draconicevolution:draconic_core>, <nuclearcraft:cobblestone_generator>], [<nuclearcraft:cobblestone_generator>, <nuclearcraft:cobblestone_generator>, <nuclearcraft:cobblestone_generator>]]);
 recipes.addShaped(<minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<ic2:dust:5>, <minecraft:obsidian>, <ic2:dust:5>], [<draconicevolution:infused_obsidian>, <minecraft:magma>, <draconicevolution:infused_obsidian>]]);
+
 recipes.addShaped(<fluxnetworks:fluxplug>, [[<fluxnetworks:fluxcore>, <appliedenergistics2:material:41>, <fluxnetworks:fluxcore>],[<appliedenergistics2:material:41>, <fluxnetworks:fluxblock>, <appliedenergistics2:material:41>], [<fluxnetworks:fluxcore>, <appliedenergistics2:material:41>, <fluxnetworks:fluxcore>]]);
 recipes.addShaped(<fluxnetworks:fluxstorage>, [[<fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>],[<minecraft:glass_pane>, <ic2:energy_crystal:*>, <minecraft:glass_pane>], [<fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>]]);
 recipes.addShaped(<fluxnetworks:fluxblock>, [[<fluxnetworks:fluxcore>, <fluxnetworks:fluxcore>, <fluxnetworks:fluxcore>],[<fluxnetworks:fluxcore>, <fluxnetworks:flux>, <fluxnetworks:fluxcore>], [<fluxnetworks:fluxcore>, <fluxnetworks:fluxcore>, <fluxnetworks:fluxcore>]]);
+
 recipes.addShaped(<draconicevolution:fusion_crafting_core>, [[<draconicevolution:draconic_core>, <draconicevolution:crafting_injector>, <draconicevolution:draconic_core>],[<draconicevolution:crafting_injector>, <ore:blockGlassColorless>, <draconicevolution:crafting_injector>], [<draconicevolution:draconic_core>, <draconicevolution:crafting_injector>, <draconicevolution:draconic_core>]]);
 recipes.addShaped(<draconicevolution:crafting_injector>, [[<ore:plateDiamond>, <draconicevolution:draconic_core>, <ore:plateDiamond>],[<draconicevolution:draconic_core>, <thermalexpansion:frame>, <draconicevolution:draconic_core>], [<ore:plateDiamond>, <draconicevolution:draconic_core>, <ore:plateDiamond>]]);
 
