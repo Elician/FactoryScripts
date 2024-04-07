@@ -7,7 +7,7 @@ recipes.addShaped(<fluxnetworks:fluxpoint>, [
 
 removeExist(<fluxnetworks:fluxcore>);
 recipes.addShaped(<fluxnetworks:fluxcore>, [
-    [<fluxnetworks:flux>, <draconicevolution:infused_obsidian>, <fluxnetworks:flux>],
-    [<draconicevolution:infused_obsidian>, <minecraft:ender_eye>, <draconicevolution:infused_obsidian>],
-    [<fluxnetworks:flux>, <draconicevolution:infused_obsidian>, <fluxnetworks:flux>]
+    [<fluxnetworks:flux>, <minecraft:obsidian>, <fluxnetworks:flux>],
+    [<minecraft:obsidian>, <minecraft:ender_eye>, <minecraft:obsidian>],
+    [<fluxnetworks:flux>, <minecraft:obsidian>, <fluxnetworks:flux>]
 ]);
