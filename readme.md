@@ -94,7 +94,7 @@ MolecularTransformer.addRecipe(output, input, energy);
 ```ts
 import mods.extendedcrafting.CompressionCrafting;
 
-CompressionCrafting.addRecipe(name, <input>, <output>, inputCount, <catalyst>, powerCost, powerRate);
+CompressionCrafting.addRecipe(<input>, <output>, inputCount, <catalyst>, powerCost, powerRate);
 CompressionCrafting.remove(<output>);
 
 //powerRate is not required
