@@ -1,3 +1,3 @@
 import mods.extendedcrafting.CompressionCrafting;
 
-CompressionCrafting.addRecipe("chromeSingulatiry", <alchemistry:ingot:24>, <extendedcrafting:singularity:33>, 10000, <extendedcrafting:material:11>, 5000000);  
+CompressionCrafting.addRecipe(<alchemistry:ingot:24>, <extendedcrafting:singularity:33>, 10000, <extendedcrafting:material:11>, 5000000);
