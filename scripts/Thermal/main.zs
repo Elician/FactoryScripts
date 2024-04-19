@@ -91,3 +91,11 @@ recipes.addShapeless(<thermalfoundation:material:1028>, [
     <thermalfoundation:material:1026>,
     <thermalfoundation:material:1025>
 ]);
+
+removeExist(<thermalfoundation:material:70>);
+recipes.addShapeless(<thermalfoundation:material:70>, [
+    <jaopca:item_dustsmallplatinum>, 
+    <jaopca:item_dustsmallplatinum>,
+    <jaopca:item_dustsmallplatinum>,
+    <jaopca:item_dustsmallplatinum>
+]);

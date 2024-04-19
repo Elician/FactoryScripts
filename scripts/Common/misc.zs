@@ -87,7 +87,7 @@ removeExist(<energycontrol:energy_counter>);
 removeExist(<thermalfoundation:material:513>);
 
 //ADD
-recipes.addShaped(<thermalexpansion:capacitor:4>, [[<ic2:lapotron_crystal:*>, <thermalfoundation:material:*>, <ic2:lapotron_crystal:*>],[<thermalfoundation:material:167>, <thermalexpansion:capacitor:3>, <thermalfoundation:material:167>], [<ic2:lapotron_crystal:*>, <thermalfoundation:material:167>, <ic2:lapotron_crystal:*>]]);
+recipes.addShaped(<thermalexpansion:capacitor:4>, [[<ic2:lapotron_crystal:*>, <thermalfoundation:material:512>, <ic2:lapotron_crystal:*>],[<thermalfoundation:material:167>, <thermalexpansion:capacitor:3>, <thermalfoundation:material:167>], [<ic2:lapotron_crystal:*>, <thermalfoundation:material:167>, <ic2:lapotron_crystal:*>]]);
 recipes.addShaped(<thermalexpansion:capacitor:3>, [[<nuclearcraft:compound:2>, <ic2:lapotron_crystal:*>, <nuclearcraft:compound:2>],[<thermalfoundation:material:1026>, <thermalexpansion:capacitor:2>, <thermalfoundation:material:1026>], [<thermalfoundation:material:165>, <thermalfoundation:material:1026>, <thermalfoundation:material:165>]]);
 recipes.addShaped(<thermalexpansion:capacitor:2>, [[<ic2:energy_crystal:*>, <thermalfoundation:material:161>, <ic2:energy_crystal:*>],[<thermalfoundation:material:161>, <thermalexpansion:capacitor:1>, <thermalfoundation:material:161>], [<ic2:energy_crystal:*>, <thermalfoundation:material:161>, <ic2:energy_crystal:*>]]);
 recipes.addShaped(<thermalexpansion:capacitor:1>, [[<nuclearcraft:compound:2>, <thermalfoundation:material:771>, <nuclearcraft:compound:2>],[<thermalfoundation:material:162>, <thermalexpansion:capacitor>, <thermalfoundation:material:162>], [<thermalfoundation:material:162>, <ic2:energy_crystal:*>, <thermalfoundation:material:162>]]);
