@@ -89,3 +89,13 @@ import mods.ic2.MolecularTransformer;
 
 MolecularTransformer.addRecipe(output, input, energy);
 ```
+
+**Добавление предмета в квантовый компрессор:**
+```ts
+import mods.extendedcrafting.CompressionCrafting;
+
+CompressionCrafting.addRecipe(name, <input>, <output>, inputCount, <catalyst>, powerCost, powerRate);
+CompressionCrafting.remove(<output>);
+
+//powerRate is not required
+```

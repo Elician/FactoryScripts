@@ -1,3 +1,5 @@
+import mods.thermalexpansion.Crucible;
+
 removeExist(<thermalexpansion:machine:6>);
 
 recipes.addShaped(<thermalexpansion:machine:6>, [
@@ -29,3 +31,5 @@ recipes.addShaped(<thermalexpansion:machine:6>.withTag({Level: 4 as byte}), [
     [<thermalfoundation:material:167>, <thermalexpansion:machine:6>.withTag({Level: 3 as byte}), <thermalfoundation:material:167>],
     [<thermalfoundation:material:1026>, <ic2:lapotron_crystal:*>, <thermalfoundation:material:1026>]
 ]);
+
+Crucible.addRecipe(<liquid:mana>, <thermalfoundation:material:1028>, 1500000);

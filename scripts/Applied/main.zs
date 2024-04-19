@@ -86,3 +86,17 @@ recipes.addShaped(<appliedenergistics2:controller>, [
     [<appliedenergistics2:material:12>, <appliedenergistics2:smooth_sky_stone_chest>, <appliedenergistics2:material:12>],
     [<appliedenergistics2:material:24>, <appliedenergistics2:material:12>, <appliedenergistics2:material:24>]
 ]);
+
+removeExist(<threng:big_assembler:1>);
+recipes.addShaped(<threng:big_assembler:1>, [
+    [<thermalfoundation:material:160>, <minecraft:iron_bars>, <thermalfoundation:material:160>],
+    [<minecraft:iron_bars>, <threng:big_assembler>, <minecraft:iron_bars>],
+    [<thermalfoundation:material:160>, <minecraft:iron_bars>, <thermalfoundation:material:160>]
+]);
+
+removeExist(<threng:big_assembler>);
+recipes.addShaped(<threng:big_assembler>, [
+    [<threng:material>, <appliedenergistics2:smooth_sky_stone_block>, <threng:material>],
+    [<appliedenergistics2:smooth_sky_stone_block>, <minecraft:crafting_table>, <appliedenergistics2:smooth_sky_stone_block>],
+    [<threng:material>, <appliedenergistics2:smooth_sky_stone_block>, <threng:material>]
+]);

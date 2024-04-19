@@ -285,3 +285,10 @@ recipes.addShaped(<ic2:te:42>, [
     [<ic2:casing:6>, <ic2:resource:12>, <ic2:casing:6>],
     [<ic2:casing:6>, <ic2:te:131>, <ic2:casing:6>]
 ]);
+
+removeExist(<ic2:barrel>);
+recipes.addShaped(<ic2:barrel>, [
+    [null, <forestry:wood_pile>, null],
+    [<forestry:wood_pile>, <growthcraft_cellar:ferment_barrel>, <forestry:wood_pile>],
+    [null, <forestry:wood_pile>, null]
+]);

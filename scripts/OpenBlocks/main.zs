@@ -32,7 +32,7 @@ recipes.addShaped(<openblocks:xp_drain>, [
 removeExist(<openblocks:hang_glider>);
 recipes.addShaped(<openblocks:hang_glider>, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<openblocks:generic>, <extendedcrafting:material:12>, <openblocks:generic>],
+    [<openblocks:generic>, <minecraft:diamond>, <openblocks:generic>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
 ]);
 

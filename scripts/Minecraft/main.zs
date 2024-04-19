@@ -14,20 +14,17 @@ removeExist(<minecraft:wooden_pickaxe>);//кожаный шлем
 
 removeExist(<minecraft:leather_helmet>);//кожаный шлем
 recipes.addShaped(<minecraft:leather_helmet>, [
-    [null, null, null],
     [leather, leather, leather],
     [leather, ore_string, leather]
 ]);
 recipes.addShaped(<minecraft:leather_helmet>, [
-    [null, null, null],
     [<harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>, <harvestcraft:wovencottonitem>], 
     [<harvestcraft:wovencottonitem>, leather, <harvestcraft:wovencottonitem>]
 ]);
 
 removeExist(<minecraft:iron_helmet>);//железный шлем
 recipes.addShaped(<minecraft:iron_helmet>, [
-    [null, null, null],
-    [ironIngot, ironIngot, ironIngot], 
+    [ironIngot, ironIngot, ironIngot],
     [ironIngot, <minecraft:leather_helmet:*>, ironIngot]
 ]);
 
@@ -40,21 +37,18 @@ recipes.addShaped(<minecraft:wool>, [
 
 removeExist(<minecraft:golden_helmet>);//золотой шлем
 recipes.addShaped(<minecraft:golden_helmet>, [
-    [null, null, null],
     [ore_gold_plate, ore_gold_plate, ore_gold_plate], 
     [ore_gold_plate, <minecraft:iron_helmet>, ore_gold_plate]
 ]);
 
 removeExist(<minecraft:diamond_helmet>);//алмазный шлем
 recipes.addShaped(<minecraft:diamond_helmet>, [
-    [null, null, null],
     [<ore:dustDiamond>, <ore:plateDiamond>, <ore:dustDiamond>],
     [<ore:plateDiamond>, <minecraft:golden_helmet:*>, <ore:plateDiamond>]
 ]);
 
 removeExist(<minecraft:iron_bars> * 16);//латекст лист
 recipes.addShaped(<minecraft:iron_bars> * 4, [
-    [null, null, null],
     [ironIngot, ironIngot, ironIngot],
     [ironIngot, ironIngot, ironIngot]
 ]);

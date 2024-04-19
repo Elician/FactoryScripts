@@ -84,3 +84,10 @@ recipes.addShaped(<thermalfoundation:material:657>, [
     [<minecraft:iron_ingot>, <thermalfoundation:material:128>, <minecraft:iron_ingot>],
     [null, <minecraft:iron_ingot>, <thermalfoundation:material:160>]
 ]);
+
+recipes.addShapeless(<thermalfoundation:material:1028>, [
+    <thermalfoundation:material:1027>, 
+    <thermalfoundation:material:1024>,
+    <thermalfoundation:material:1026>,
+    <thermalfoundation:material:1025>
+]);

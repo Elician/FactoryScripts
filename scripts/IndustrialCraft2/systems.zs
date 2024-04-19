@@ -10,8 +10,7 @@ var removeIngredients as IItemStack[] = [
     <ic2:boat:3>,
     <ic2:boat:2>,
     <ic2:boat:1>,
-    <ic2:boat>,
-    <ic2:barrel>,
+    <ic2:boat>
 ];
 
 for ingredient in removeIngredients {

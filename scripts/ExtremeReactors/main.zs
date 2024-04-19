@@ -20,3 +20,22 @@ recipes.addShaped(<bigreactors:reactorcontroller>, [
     [<ic2:crafting:70>, <nuclearcraft:cooler:7>, <ic2:crafting:70>],
     [<bigreactors:reactorcasing>, <nuclearcraft:compound:2>, <bigreactors:reactorcasing>]
 ]);
+
+removeExist(<bigreactors:turbinehousing>);
+recipes.addShaped(<bigreactors:turbinehousing>, [
+    [<minecraft:iron_ingot>, <ore:ingotGraphite>, <minecraft:iron_ingot>],
+    [<ore:ingotGraphite>, <bigreactors:turbinehousingcores>, <ore:ingotGraphite>],
+    [<minecraft:iron_ingot>, <ore:ingotGraphite>, <minecraft:iron_ingot>]
+]);
+
+removeExist(<bigreactors:turbinehousingcores>);
+recipes.addShaped(<bigreactors:turbinehousingcores>, [
+    [<minecraft:iron_ingot>, <minecraft:gold_ingot>, <thermalfoundation:material:160>],
+    [<ore:ingotGraphite>, <minecraft:comparator>, <ore:ingotGraphite>],
+    [<thermalfoundation:material:160>, <minecraft:gold_ingot>, <minecraft:iron_ingot>]
+]);
+recipes.addShaped(<bigreactors:turbinehousingcores>, [
+    [<thermalfoundation:material:160>, <minecraft:gold_ingot>, <minecraft:iron_ingot>],
+    [<ore:ingotGraphite>, <minecraft:comparator>, <ore:ingotGraphite>],
+    [<minecraft:iron_ingot>, <minecraft:gold_ingot>, <thermalfoundation:material:160>]
+]);
