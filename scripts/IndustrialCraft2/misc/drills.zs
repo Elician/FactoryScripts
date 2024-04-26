@@ -114,7 +114,7 @@ TableCrafting.addShaped(4, <draconicevolution:draconic_staff_of_power>, [
    [null, s_10, s_09, s_05, s_05, s_05, s_09, s_10, null]
 ]);
 
-var r_01 = <draconicevolution:wyvern_shovel>;
+var r_01 = <draconicevolution:wyvern_shovel:*>;
 var r_02 = <extendedcrafting:singularity:28>;
 
 //Tier 8 (draconic_staff)
