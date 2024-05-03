@@ -292,3 +292,6 @@ recipes.addShaped(<ic2:barrel>, [
     [<forestry:wood_pile>, <growthcraft_cellar:ferment_barrel>, <forestry:wood_pile>],
     [null, <forestry:wood_pile>, null]
 ]);
+
+mods.nuclearcraft.pressurizer.addRecipe([<ic2:dust:34>, <minecraft:emerald>, 40, 10]);
+mods.ic2.Compressor.addRecipe(<ic2:dust:34>,<minecraft:emerald>);
