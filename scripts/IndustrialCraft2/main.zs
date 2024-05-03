@@ -294,4 +294,4 @@ recipes.addShaped(<ic2:barrel>, [
 ]);
 
 mods.nuclearcraft.pressurizer.addRecipe([<ic2:dust:34>, <minecraft:emerald>, 40, 10]);
-mods.ic2.Compressor.addRecipe(<ic2:dust:34>,<minecraft:emerald>);
+mods.ic2.Compressor.addRecipe(<minecraft:emerald>, <ic2:dust:34>);
