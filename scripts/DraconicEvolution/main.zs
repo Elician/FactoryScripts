@@ -45,18 +45,19 @@ var cr05 = <ic2:te:159>;
 var cr06 = <ic2:upgrade:4>;
 var cr07 = <staffutils:compressed_stone_5x>;
 var cr08 = <ic2:te:158>;
+var cr09 = <ic2:crafting:48>;
 
 removeExist(<draconicevolution:creative_rf_source>);
 TableCrafting.addShaped(4, <draconicevolution:creative_rf_source>, [
-   [cr05, cr01, cr02, cr03, cr03, cr03, cr02, cr01, cr05],
+   [cr05, cr01, cr02, cr03, cr09, cr03, cr02, cr01, cr05],
    [cr01, cr02, cr04, cr04, cr04, cr04, cr04, cr02, cr01],
    [cr02, cr04, cr04, cr08, cr06, cr08, cr04, cr04, cr02],
    [cr03, cr04, cr08, cr07, cr01, cr07, cr08, cr04, cr03],
-   [cr03, cr04, cr06, cr01, cr05, cr01, cr06, cr04, cr03],
+   [cr09, cr04, cr06, cr01, cr05, cr01, cr06, cr04, cr09],
    [cr03, cr04, cr08, cr07, cr01, cr07, cr08, cr04, cr03],
    [cr02, cr04, cr04, cr08, cr06, cr08, cr04, cr04, cr02],
    [cr01, cr02, cr04, cr04, cr04, cr04, cr04, cr02, cr01],
-   [cr05, cr01, cr02, cr03, cr03, cr03, cr02, cr01, cr05]
+   [cr05, cr01, cr02, cr03, cr09, cr03, cr02, cr01, cr05]
 ]);
 
 removeExist(<draconicevolution:diss_enchanter>);

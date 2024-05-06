@@ -82,9 +82,9 @@ recipes.addShaped(solar9, [
 
 removeExist(solar10);
 TableCrafting.addShaped(2, solar10, [
-   [solar9, <draconicevolution:draconic_core>, <draconicevolution:wyvern_core>, <draconicevolution:draconic_core>, solar9], 
+   [solar9, <draconicevolution:draconic_core>, <ic2:crafting:47>, <draconicevolution:draconic_core>, solar9], 
    [<draconicevolution:draconic_core>, solar9, solar9, solar9, <draconicevolution:draconic_core>], 
-   [<draconicevolution:wyvern_core>, solar9, <staffutils:compressed_cobblestone_10x>, solar9, <draconicevolution:wyvern_core>], 
+   [<ic2:crafting:47>, solar9, <staffutils:compressed_cobblestone_10x>, solar9, <ic2:crafting:47>], 
    [<draconicevolution:draconic_core>, solar9, solar9, solar9, <draconicevolution:draconic_core>], 
-   [solar9, <draconicevolution:draconic_core>, <draconicevolution:wyvern_core>, <draconicevolution:draconic_core>, solar9]
+   [solar9, <draconicevolution:draconic_core>, <ic2:crafting:47>, <draconicevolution:draconic_core>, solar9]
 ]);
