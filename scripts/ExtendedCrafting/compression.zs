@@ -5,7 +5,7 @@ CompressionCrafting.addRecipe(<extendedcrafting:singularity:33>, <alchemistry:in
 
 //maximum singularity
 TableCrafting.remove(<extendedcrafting:singularity:2>);
-TableCrafting.addShaped(0, <extendedcrafting:singularity:2>, [
+TableCrafting.addShaped(4, <extendedcrafting:singularity:2>, [
 	[<extendedcrafting:singularity:6>, <extendedcrafting:singularity:5>, <extendedcrafting:singularity:24>, null, <extendedcrafting:singularity:2>, null, <extendedcrafting:singularity:31>, <extendedcrafting:singularity:32>, <extendedcrafting:singularity:16>], 
 	[<extendedcrafting:singularity:4>, <extendedcrafting:singularity:23>, null, <extendedcrafting:singularity:20>, <extendedcrafting:singularity:17>, <extendedcrafting:singularity:30>, null, <extendedcrafting:singularity:26>, <extendedcrafting:singularity:32>], 
 	[<extendedcrafting:singularity:22>, null, <extendedcrafting:singularity:19>, <extendedcrafting:singularity:35>, <extendedcrafting:singularity:29>, <extendedcrafting:singularity:3>, null, null, <extendedcrafting:singularity:31>], 

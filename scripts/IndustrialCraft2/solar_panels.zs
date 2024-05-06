@@ -48,7 +48,7 @@ recipes.addShaped(solar4, [
 removeExist(solar5);
 recipes.addShaped(solar5, [
     [<ic2:crafting:62>, <ic2:crafting:62>, <ic2:crafting:62>],
-    [solar4, <nuclearcraft:cooler:7>, solar4],
+    [solar4, <extendedcrafting:material:24>, solar4],
     [solar4, <thermalfoundation:material:165>, solar4]
 ]);
 

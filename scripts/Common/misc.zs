@@ -97,9 +97,23 @@ recipes.addShaped(<thermalexpansion:cell>, [[<nuclearcraft:compound:2>, <ic2:ene
 recipes.addShaped(<thermalexpansion:frame:128>, [[<ore:plateSteel>, <ore:blockGlassColorless>, <ore:plateSteel>],[<ore:blockGlassColorless>, <ic2:energy_crystal:*>, <ore:blockGlassColorless>], [<ore:plateSteel>, <ore:blockGlassColorless>, <ore:plateSteel>]]);
 recipes.addShaped(<thermalexpansion:augment:512>, [[<nuclearcraft:compound:2>, <nuclearcraft:compound:2>, <nuclearcraft:compound:2>],[<ic2:crafting:2>, <ic2:upgrade>, <ic2:crafting:2>], [<nuclearcraft:compound:2>, <ic2:energy_crystal:*>, <nuclearcraft:compound:2>]]);
 recipes.addShaped(<thermalexpansion:augment:128>, [[<nuclearcraft:compound:2>, <ic2:energy_crystal:*>, <nuclearcraft:compound:2>],[<ore:plateSteel>, <ic2:upgrade>, <ore:plateSteel>], [<nuclearcraft:compound:2>, <ore:plateSteel>, <nuclearcraft:compound:2>]]);
-recipes.addShaped(<ic2:te:22>, [[<ic2:crafting:2>, <ic2:resource:13>, <ic2:lapotron_crystal:*>],[<ic2:te:24>, <ic2:te:24>, <ic2:te:24>], [<ic2:lapotron_crystal:*>, <ic2:resource:13>, <ic2:crafting:2>]]);
-recipes.addShaped(<ic2:te:22>, [[<ic2:lapotron_crystal:*>, <ic2:resource:13>, <ic2:crafting:2>],[<ic2:te:24>, <ic2:te:24>, <ic2:te:24>], [<ic2:crafting:2>, <ic2:resource:13>, <ic2:lapotron_crystal:*>]]);
-recipes.addShaped(<ic2:te:24>, [[<thermalfoundation:material:323>, <thermalfoundation:material:323>, <thermalfoundation:material:323>],[<thermalfoundation:material:323>, <ic2:resource:12>, <thermalfoundation:material:323>], [<thermalfoundation:material:323>, <thermalfoundation:material:323>, <thermalfoundation:material:323>]]);
+
+recipes.addShaped(<ic2:te:22>, [
+    [<ic2:crafting:2>, <ic2:resource:13>, <ic2:energy_crystal:*>],
+    [<ic2:te:24>, <ic2:te:24>, <ic2:te:24>], 
+    [<ic2:energy_crystal:*>, <ic2:resource:13>, <ic2:crafting:2>]
+    ]);
+recipes.addShaped(<ic2:te:22>, [
+    [<ic2:energy_crystal:*>, <ic2:resource:13>, <ic2:crafting:2>],
+    [<ic2:te:24>, <ic2:te:24>, <ic2:te:24>], 
+    [<ic2:crafting:2>, <ic2:resource:13>, <ic2:energy_crystal:*>]
+    ]);
+
+recipes.addShaped(<ic2:te:24>, [
+    [<thermalfoundation:material:323>, <thermalfoundation:material:323>, <thermalfoundation:material:323>],
+    [<thermalfoundation:material:323>, <thermalexpansion:frame:64>, <thermalfoundation:material:323>],
+     [<thermalfoundation:material:323>, <thermalfoundation:material:323>, <thermalfoundation:material:323>]
+     ]);
 recipes.addShaped(<draconicevolution:wyvern_shovel:*>, [
     [<draconicevolution:draconic_core>, <draconicevolution:wyvern_core>, <draconicevolution:draconic_core>],
     [<draconicevolution:draconium_ingot>, <ic2:advanced_drill:*>, <draconicevolution:draconium_ingot>], 

@@ -18,3 +18,10 @@ recipes.addShaped(<ic2:te:171>, [
     [<ic2:te:170>, <ic2:crafting:44>, <ic2:te:170>],
     [<ic2:misc_resource:3>, <ic2:te:170>, <ic2:misc_resource:3>]
 ]);
+
+removeExist(<ic2:te:172>);
+recipes.addShaped(<ic2:te:172>, [
+    [<ic2:te:171>, <ic2:te:171>, <ic2:te:171>],
+    [<ic2:te:171>, <ic2:crafting:45>, <ic2:te:171>],
+    [<ic2:te:171>, <ic2:te:171>, <ic2:te:171>]
+]);
