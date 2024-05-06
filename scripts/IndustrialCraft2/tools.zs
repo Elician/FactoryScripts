@@ -11,7 +11,7 @@ recipes.addShaped(<ic2:crafting:12>, [
 removeExist(<ic2:crafting:11>);
 recipes.addShaped(<ic2:crafting:11>, [
     [rinIsolateCable, rinIsolateCable, <ic2:casing:3>],
-    [<ic2:re_battery>, <ic2:crafting:2>, <ic2:crafting:6>],
+    [<ic2:re_battery:*>, <ic2:crafting:2>, <ic2:crafting:6>],
     [rinIsolateCable, rinIsolateCable, <ic2:casing:3>]
 ]);
 

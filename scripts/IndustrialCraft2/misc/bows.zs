@@ -10,7 +10,7 @@ import mods.extendedcrafting.TableCrafting;
 removeExist(<ic2:nano_bow:*>);
 recipes.addShaped(<ic2:nano_bow>, [
     [null, <ic2:crafting:3>, <thermalfoundation:material:166>],
-    [<ic2:crafting:3>, <ic2:advanced_re_battery>, <thermalfoundation:material:166>],
+    [<ic2:crafting:3>, <ic2:advanced_re_battery:*>, <thermalfoundation:material:166>],
     [null, <ic2:crafting:3>, <thermalfoundation:material:166>]
 ]);
 

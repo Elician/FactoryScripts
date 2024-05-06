@@ -133,6 +133,11 @@ recipes.addShaped(<ic2:resource:12>, [
     [null, null, null],
     [<ore:plateIron>, <ore:plateBasic>, <ore:plateIron>]
 ]);
+recipes.addShaped(<ic2:resource:12>, [
+    [<ore:plateIron>, <ore:blockGlassColorless>, <ore:plateIron>],
+    [<ore:blockGlassColorless>, <ic2:re_battery:*>, <ore:blockGlassColorless>], 
+    [<ore:plateIron>, <ore:blockGlassColorless>, <ore:plateIron>]
+]);
 
 removeExist(<ic2:re_battery:*>);
 recipes.addShaped(<ic2:re_battery:26>, [
