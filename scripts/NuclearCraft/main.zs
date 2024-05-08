@@ -141,3 +141,17 @@ recipes.addShaped(<nuclearcraft:fission_block>, [
     [<nuclearcraft:part>, <nuclearcraft:alloy:1>, <nuclearcraft:part>],
     [null, <nuclearcraft:part>, null]
 ]);
+
+removeExist(<nuclearcraft:upgrade>);
+recipes.addShaped(<nuclearcraft:upgrade>, [
+    [<extendedcrafting:material:7>, <ic2:plate:4>, <extendedcrafting:material:7>],
+    [<ic2:plate:4>, <ic2:upgrade:1>, <ic2:plate:4>],
+    [<extendedcrafting:material:7>, <ic2:plate:4>, <extendedcrafting:material:7>]
+]);
+
+removeExist(<nuclearcraft:upgrade:1>);
+recipes.addShaped(<nuclearcraft:upgrade:1>, [
+    [<extendedcrafting:material:7>, <minecraft:gold_ingot>, <extendedcrafting:material:7>],
+    [<minecraft:gold_ingot>, <ic2:upgrade:6>, <minecraft:gold_ingot>],
+    [<extendedcrafting:material:7>, <minecraft:gold_ingot>, <extendedcrafting:material:7>]
+]);

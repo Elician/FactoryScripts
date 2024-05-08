@@ -143,7 +143,6 @@ recipes.addShaped(<ic2:alloy_chestplate>, [[<ic2:crafting:3>, null, <ic2:craftin
 recipes.addShaped(<ic2:alloy_chestplate>, [[<ic2:crafting:3>, null, <ic2:crafting:3>],[<ic2:crafting:3>, <minecraft:leather_chestplate>, <ic2:crafting:3>], [<ic2:crafting:3>, <minecraft:golden_chestplate>, <ic2:crafting:3>]]);
 recipes.addShaped(<ic2:alloy_chestplate>, [[<ic2:crafting:3>, <minecraft:golden_chestplate>, <ic2:crafting:3>],[<ic2:crafting:3>, <minecraft:leather_chestplate>, <ic2:crafting:3>], [<ic2:crafting:3>, null, <ic2:crafting:3>]]);
 recipes.addShaped(<ic2:alloy_chestplate>, [[<ic2:crafting:3>, <minecraft:leather_chestplate>, <ic2:crafting:3>],[<ic2:crafting:3>, <minecraft:golden_chestplate>, <ic2:crafting:3>], [<ic2:crafting:3>, null, <ic2:crafting:3>]]);
-recipes.addShaped(<ic2:resource:12>, [[<ore:plateIron>, <ore:blockGlassColorless>, <ore:plateIron>],[<ore:blockGlassColorless>, <ic2:re_battery:*>, <ore:blockGlassColorless>], [<ore:plateIron>, <ore:blockGlassColorless>, <ore:plateIron>]]);
 
 recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],[<minecraft:stone>, <ore:plateIron>, <minecraft:stone>], [<minecraft:stone>, <minecraft:redstone>, <minecraft:stone>]]);
 recipes.addShaped(<nuclearcraft:part:10>, [[<ore:plateLead>, <ore:plateSteel>, <ore:plateLead>],[<ore:plateSteel>, <nuclearcraft:alloy:1>, <ore:plateSteel>], [<ore:plateLead>, <ore:plateSteel>, <ore:plateLead>]]);

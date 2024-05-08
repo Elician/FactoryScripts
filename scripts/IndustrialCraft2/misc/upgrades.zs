@@ -32,14 +32,14 @@ recipes.addShaped(<ic2:upgrade> * 2, [
 
 removeExist(<ic2:upgrade:1>);
 recipes.addShaped(<ic2:upgrade:1>, [
-    [null, <ic2:crafting:2>, null],
+    [<ic2:ingot>, <ic2:crafting:2>, <ic2:ingot>],
     [<ic2:heat_storage>, <ic2:upgrade>, <ic2:heat_storage>],
-    [null, <ic2:crafting:2>, null]
+    [<ic2:ingot>, <ic2:crafting:2>, <ic2:ingot>]
 ]);
 recipes.addShaped(<ic2:upgrade:1>, [
-    [null, <ic2:heat_storage>, null],
+    [<ic2:ingot>, <ic2:heat_storage>, <ic2:ingot>],
     [<ic2:crafting:2>, <ic2:upgrade>, <ic2:crafting:2>],
-    [null, <ic2:heat_storage>, null]
+    [<ic2:ingot>, <ic2:heat_storage>, <ic2:ingot>]
 ]);
 
 removeExist(<ic2:upgrade:2>);
@@ -57,7 +57,7 @@ recipes.addShaped(<ic2:upgrade:2>, [
 removeExist(<ic2:upgrade:3>);
 recipes.addShaped(<ic2:upgrade:3>, [
     [<ic2:crafting:43>, <ic2:upgrade:2>, <ic2:crafting:43>],
-    [<ic2:upgrade:2>, <ic2:misc_resource:3>, <ic2:upgrade:2>],
+    [<ic2:upgrade:2>, <ic2:crafting:44>, <ic2:upgrade:2>],
     [<ic2:crafting:43>, <ic2:upgrade:2>, <ic2:crafting:43>]
 ]);
 
