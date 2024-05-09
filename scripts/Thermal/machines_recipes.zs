@@ -1,4 +1,5 @@
 import mods.thermalexpansion.Crucible;
+
 removeExist(<thermalexpansion:machine:6>);
 recipes.addShaped(<thermalexpansion:machine:6>, [
     [<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>],
