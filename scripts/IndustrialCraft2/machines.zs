@@ -1,9 +1,7 @@
-import mods.ic2.Macerator;
-import mods.ic2.ThermalCentrifuge;
-
-Macerator.addRecipe(<thermalfoundation:material:69>, <thermalfoundation:material:133>);
-Macerator.addRecipe(<nuclearcraft:gem_dust:2>, <minecraft:quartz>);
-Macerator.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>);
-Macerator.addRecipe(<appliedenergistics2:material:46>, <thermalfoundation:material:895>);
-Macerator.addRecipe(<jaopca:item_dustchargedcertusquartz>, <appliedenergistics2:material:1>);
-Macerator.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material>);
+//Molecular transformer
+removeExist(<ic2:te:160>);
+recipes.addShaped(<ic2:te:160>, [
+    [<ic2:resource:13>, <ic2:te:80>, <ic2:resource:13>],
+    [<ic2:crafting:78>, <ic2:crafting:44>, <ic2:crafting:78>],
+    [<ic2:resource:13>, <ic2:te:80>, <ic2:resource:13>]
+]);

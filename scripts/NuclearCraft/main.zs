@@ -110,15 +110,10 @@ recipes.addShaped(<nuclearcraft:part:11>, [
 ]);
 
 removeExist(<nuclearcraft:part:1>);
-recipes.addShaped(<nuclearcraft:part:1>, [
+recipes.addShapedMirrored(<nuclearcraft:part:1>, [
     [<nuclearcraft:alloy:1>, <ic2:plate:17>, <nuclearcraft:alloy:1>],
     [<ic2:plate:10>, <nuclearcraft:part>, <ic2:plate:10>],
     [<nuclearcraft:alloy:1>, <ic2:plate:17>, <nuclearcraft:alloy:1>]
-]);
-recipes.addShaped(<nuclearcraft:part:1>, [
-    [<nuclearcraft:alloy:1>, <ic2:plate:10>, <nuclearcraft:alloy:1>],
-    [<ic2:plate:17>, <nuclearcraft:part>, <ic2:plate:17>],
-    [<nuclearcraft:alloy:1>, <ic2:plate:10>, <nuclearcraft:alloy:1>]
 ]);
 
 removeExist(<nuclearcraft:part:2>);

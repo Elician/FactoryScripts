@@ -19,6 +19,15 @@ recipes.addShaped(null, [
 recipes.addShapeless(null, [null, null]);
 ```
 
+**Добавление зеркального рецепта:**
+```js
+recipes.addShapedMirrored(null, [
+    [null, null, null],
+    [null, null, null],
+    [null, null, null]
+]);
+```
+
 **Удаление предмета:**
 ```js
 removeExist(null);

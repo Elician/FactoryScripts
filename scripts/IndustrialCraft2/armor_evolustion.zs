@@ -23,7 +23,6 @@ val advReBattary = <ic2:advanced_re_battery:*>;//улучшенный акком
 val advHeatEx = <ic2:advanced_heat_exchanger>;//улучшенный теплообменник
 val elCristall = <ic2:energy_crystal:*>;//энергокристалл
 val plateCarbon = <ic2:crafting:15>;//углепластик
-val glassCabel = <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte});//стекловолоконный провод
 val VNtransform = <ic2:te:79>;//ВН трансформатор
 val SVNtransform = <ic2:te:80>;//СВН трансорматор
 val upgrade = <ic2:upgrade>;//ускоритель

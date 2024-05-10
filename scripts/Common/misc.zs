@@ -24,7 +24,6 @@ removeExist(<fluxnetworks:fluxblock>);
 
 removeExist(<draconicevolution:fusion_crafting_core>);
 removeExist(<draconicevolution:crafting_injector>);
-removeExist(<ic2:resource:12>);
 removeExist(<forestry:builder_bag_t2>);
 removeExist(<forestry:builder_bag>);
 removeExist(<forestry:adventurer_bag_t2>);
@@ -45,9 +44,7 @@ removeExist(<nuclearcraft:part> * 2);
 removeExist(<alchemistry:chemical_combiner>);
 removeExist(<alchemistry:chemical_dissolver>);
 removeExist(<thermalexpansion:dynamo:5>);
-removeExist(<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}));
 removeExist(<ic2:alloy_chestplate>);
-removeExist(<ic2:resource:12>);
 removeExist(<ic2:crafting:37>);
 removeExist(<minecraft:piston>);
 removeExist(<nuclearcraft:part:10>);
@@ -98,22 +95,17 @@ recipes.addShaped(<thermalexpansion:frame:128>, [[<ore:plateSteel>, <ore:blockGl
 recipes.addShaped(<thermalexpansion:augment:512>, [[<nuclearcraft:compound:2>, <nuclearcraft:compound:2>, <nuclearcraft:compound:2>],[<ic2:crafting:2>, <ic2:upgrade>, <ic2:crafting:2>], [<nuclearcraft:compound:2>, <ic2:energy_crystal:*>, <nuclearcraft:compound:2>]]);
 recipes.addShaped(<thermalexpansion:augment:128>, [[<nuclearcraft:compound:2>, <ic2:energy_crystal:*>, <nuclearcraft:compound:2>],[<ore:plateSteel>, <ic2:upgrade>, <ore:plateSteel>], [<nuclearcraft:compound:2>, <ore:plateSteel>, <nuclearcraft:compound:2>]]);
 
-recipes.addShaped(<ic2:te:22>, [
+recipes.addShapedMirrored(<ic2:te:22>, [
     [<ic2:crafting:2>, <ic2:resource:13>, <ic2:energy_crystal:*>],
     [<ic2:te:24>, <ic2:te:24>, <ic2:te:24>], 
     [<ic2:energy_crystal:*>, <ic2:resource:13>, <ic2:crafting:2>]
-    ]);
-recipes.addShaped(<ic2:te:22>, [
-    [<ic2:energy_crystal:*>, <ic2:resource:13>, <ic2:crafting:2>],
-    [<ic2:te:24>, <ic2:te:24>, <ic2:te:24>], 
-    [<ic2:crafting:2>, <ic2:resource:13>, <ic2:energy_crystal:*>]
-    ]);
+]);
 
 recipes.addShaped(<ic2:te:24>, [
     [<thermalfoundation:material:323>, <thermalfoundation:material:323>, <thermalfoundation:material:323>],
     [<thermalfoundation:material:323>, <thermalexpansion:frame:64>, <thermalfoundation:material:323>],
-     [<thermalfoundation:material:323>, <thermalfoundation:material:323>, <thermalfoundation:material:323>]
-     ]);
+    [<thermalfoundation:material:323>, <thermalfoundation:material:323>, <thermalfoundation:material:323>]
+]);
 recipes.addShaped(<draconicevolution:wyvern_shovel:*>, [
     [<draconicevolution:draconic_core>, <draconicevolution:wyvern_core>, <draconicevolution:draconic_core>],
     [<draconicevolution:draconium_ingot>, <ic2:advanced_drill:*>, <draconicevolution:draconium_ingot>], 
@@ -127,17 +119,18 @@ recipes.addShaped(<ic2:resource:13>, [[<ore:plateSteel>, <nuclearcraft:part>, <o
 recipes.addShaped(<ic2:resource:13>, [[<ore:plateSteel>, <ic2:crafting:15>, <ore:plateSteel>],[<nuclearcraft:part>, <ic2:resource:12>, <nuclearcraft:part>], [<ore:plateSteel>, <ic2:crafting:15>, <ore:plateSteel>]]);
 recipes.addShaped(<nuclearcraft:part> * 2, [[<ore:plateSteel>, <ore:dustGraphite>, <ore:ingotLead>],[<ore:dustGraphite>, <ore:ingotLead>, <ore:dustGraphite>], [<ore:ingotLead>, <ore:dustGraphite>, <ore:plateSteel>]]);
 recipes.addShaped(<nuclearcraft:part> * 2, [[<ore:ingotLead>, <ore:dustGraphite>, <ore:plateSteel>],[<ore:dustGraphite>, <ore:ingotLead>, <ore:dustGraphite>], [<ore:plateSteel>, <ore:dustGraphite>, <ore:ingotLead>]]);
+
 recipes.addShaped(<alchemistry:chemical_combiner>, [
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
     [<ore:plateSteel>, <ic2:lapotron_crystal:*>, <ore:plateSteel>], 
     [<ic2:crafting:44>, <minecraft:sticky_piston>, <ic2:crafting:44>]
-    ]);
+]);
 
 recipes.addShaped(<alchemistry:chemical_dissolver>, [
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
     [<ic2:crafting:4>, <ic2:crafting:5>, <ic2:crafting:4>], 
     [<ic2:crafting:47>, <minecraft:sticky_piston>, <ic2:crafting:47>]
-    ]);
+]);
 
 recipes.addShaped(<ic2:alloy_chestplate>, [[<ic2:crafting:3>, null, <ic2:crafting:3>],[<ic2:crafting:3>, <minecraft:golden_chestplate>, <ic2:crafting:3>], [<ic2:crafting:3>, <minecraft:leather_chestplate>, <ic2:crafting:3>]]);
 recipes.addShaped(<ic2:alloy_chestplate>, [[<ic2:crafting:3>, null, <ic2:crafting:3>],[<ic2:crafting:3>, <minecraft:leather_chestplate>, <ic2:crafting:3>], [<ic2:crafting:3>, <minecraft:golden_chestplate>, <ic2:crafting:3>]]);
@@ -164,8 +157,7 @@ recipes.addShaped(<draconicevolution:crafting_injector>, [[<ore:plateDiamond>, <
 removeExist(<minecraft:end_rod>);
 recipes.addShaped(<minecraft:end_rod>, [
     [null, <minecraft:blaze_rod>, null],
-    [null, <minecraft:chorus_fruit_popped>, null],
-    [null, null, null]
+    [null, <minecraft:chorus_fruit_popped>, null]
 ]);
 
 removeExist(<tesseract:tesseract>);

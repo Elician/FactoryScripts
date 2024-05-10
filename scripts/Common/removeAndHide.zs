@@ -18,6 +18,10 @@ var removeIngredients as IItemStack[] = [
 	<minecraft:structure_block>,
 	<minecraft:command_block>,
 
+	<nuclearcraft:water_source_dense>,
+    <nuclearcraft:water_source_compact>,
+    <ic2:te:32>,
+
 	<thermalfoundation:bait:1>,
 	<thermalfoundation:bait:2>,
 	<thermalfoundation:bait>,
@@ -270,7 +274,41 @@ var removeIngredients as IItemStack[] = [
 
 	<appliedenergistics2:nether_quartz_cutting_knife>,
 	<appliedenergistics2:certus_quartz_cutting_knife>,
-	<extendedcrafting:crafting_table>
+	<extendedcrafting:crafting_table>,
+
+	<forestry:engine_generator>,
+    <forestry:crafting_material:4>,
+
+    //bags
+    <botany:botanist_bag>,
+    <forestry:apiarist_bag>,
+    <forestry:lepidopterist_bag>,
+    <forestry:miner_bag>,
+    <forestry:miner_bag_t2>,
+    <forestry:digger_bag>,
+    <forestry:digger_bag_t2>,
+    <forestry:forester_bag>,
+    <forestry:forester_bag_t2>,
+    <forestry:hunter_bag>,
+    <forestry:hunter_bag_t2>,
+    <forestry:adventurer_bag>,
+    <forestry:adventurer_bag_t2>,
+    <forestry:builder_bag>,
+    <forestry:builder_bag_t2>,
+
+	<ic2:cable>,
+	<ic2:cable:1>,
+	<ic2:cable:2>,
+	<ic2:cable:3>,
+	<ic2:cable:4>,
+	<ic2:cable:5>,
+	<ic2:cable:6>,
+    <ic2:te:88>,
+
+	<nuclearcraft:solar_panel_basic>,
+    <nuclearcraft:solar_panel_du>,
+    <nuclearcraft:solar_panel_elite>,
+    <nuclearcraft:solar_panel_advanced>
 ];
 
 for ingredient in removeIngredients {

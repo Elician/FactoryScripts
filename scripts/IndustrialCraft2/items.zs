@@ -3,7 +3,7 @@
 removeExist(<ic2:misc_resource:10>);
 recipes.addShaped(<ic2:misc_resource:10> * 2, [
     [<ic2:misc_resource:9>, <ic2:misc_resource:9>, <ic2:misc_resource:9>],
-    [<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <thermalfoundation:material:33>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})],
+    [<ic2:crafting:108>, <thermalfoundation:material:33>, <ic2:crafting:108>],
     [<ic2:misc_resource:9>, <ic2:misc_resource:9>, <ic2:misc_resource:9>]
 ]);
 
@@ -41,7 +41,7 @@ recipes.addShaped(<ic2:afb_crystal>, [
 ]);
 
 removeExist(<ic2:frequency_transmitter>);
-recipes.addShapeless(<ic2:frequency_transmitter>, [<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:crafting:2>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})]);
+recipes.addShapeless(<ic2:frequency_transmitter>, [<ic2:crafting:108>, <ic2:crafting:2>, <ic2:crafting:108>]);
 
 removeExist(<ic2:crafting:78>);
 recipes.addShaped(<ic2:crafting:78>, [
@@ -82,7 +82,7 @@ removeExist(<ic2:scanner:*>);
 recipes.addShaped(<ic2:scanner>, [
     [<nuclearcraft:cooler:4>, <minecraft:diamond>, <nuclearcraft:cooler:4>],
     [<minecraft:diamond>, <ic2:crafting:44>, <minecraft:diamond>],
-    [<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:charging_re_battery:*>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})]
+    [<ic2:crafting:108>, <ic2:charging_re_battery:*>, <ic2:crafting:108>]
 ]);
 
 removeExist(<ic2:advanced_scanner:*>);

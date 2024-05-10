@@ -4,13 +4,11 @@ removeExist(<thermalfoundation:material:640>);
 
 recipes.addShaped(<thermalfoundation:material:640>, [[null, <minecraft:glowstone_dust>, null],[<thermalfoundation:material:1>, <ic2:dust:9>, <thermalfoundation:material:1>], [<minecraft:redstone>, <ic2:casing:3>, <minecraft:redstone>]]);
 
-var glasscabel = <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte});
-
 removeExist(<thermaldynamics:duct_0:9>);//криостабилизирующая флакс труба
 recipes.addShaped(<thermaldynamics:duct_0:9>, [
-    [<ore:blockGlassHardened>, glasscabel, <ore:blockGlassHardened>],
-    [glasscabel, <ore:ingotElectrum>, glasscabel],
-    [<ore:blockGlassHardened>,glasscabel,<ore:blockGlassHardened>]
+    [<ore:blockGlassHardened>, <ic2:crafting:108>, <ore:blockGlassHardened>],
+    [<ic2:crafting:108>, <ore:ingotElectrum>, <ic2:crafting:108>],
+    [<ore:blockGlassHardened>,<ic2:crafting:108>,<ore:blockGlassHardened>]
 ]);
 
 removeExist(<thermaldynamics:servo:1>);

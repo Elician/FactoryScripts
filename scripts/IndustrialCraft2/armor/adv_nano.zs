@@ -14,7 +14,7 @@ removeExist(<ic2:nano_adv_chestplate:*>);
 recipes.addShaped(<ic2:nano_adv_chestplate:*>, [
     [<ic2:crafting:43>, <ic2:jetpack_advelectric:*>, <ic2:crafting:43>],
     [<ic2:crafting:43>, nano_chestplate, <ic2:crafting:43>],
-    [<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ic2:lapotron_crystal:*>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})]
+    [<ic2:crafting:108>, <ic2:lapotron_crystal:*>, <ic2:crafting:108>]
 ]);
 
 removeExist(<ic2:nano_adv_leggings:*>);

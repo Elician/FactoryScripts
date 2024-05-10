@@ -1,3 +1,5 @@
+removeExist(<alchemistry:fusion_core>);
+
 removeExist(<alchemistry:fusion_casing>);
 recipes.addShaped(<alchemistry:fusion_casing>, [
     [<thermalfoundation:storage_alloy:7>, <alchemistry:ingot:74>, <thermalfoundation:storage_alloy:7>],

@@ -81,11 +81,9 @@ recipes.addShaped(<ic2:upgrade:6>, [
     [<ic2:crafting:1>, <ic2:re_battery:*>, <ic2:crafting:1>]
 ]);
 
-var gold_cable = <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte});
-
 removeExist(<ic2:upgrade:5>);
 recipes.addShaped(<ic2:upgrade:5>, [
-    [gold_cable, <ic2:crafting:1>, gold_cable],
+    [<ic2:crafting:107>, <ic2:crafting:1>, <ic2:crafting:107>],
     [<ic2:crafting:1>, <ic2:te:78>, <ic2:crafting:1>],
-    [gold_cable, <ic2:crafting:1>, gold_cable]
+    [<ic2:crafting:107>, <ic2:crafting:1>, <ic2:crafting:107>]
 ]);

@@ -20,27 +20,17 @@ recipes.addShaped(<ic2:nano_helmet>, [
 ]);
 
 removeExist(<ic2:lapotron_crystal:*>);//лазуротроновый кристалл
-recipes.addShaped(<ic2:lapotron_crystal>, [
+recipes.addShapedMirrored(<ic2:lapotron_crystal>, [
     [<ic2:plate:13>, <ore:circuitAdvanced>, <ic2:plate:13>],
     [<ore:platePlatinum>, <ore:energyCrystal>, <ore:platePlatinum>],
     [<ic2:plate:13>, <ore:circuitAdvanced>, <ic2:plate:13>]
 ]);
-recipes.addShaped(<ic2:lapotron_crystal>, [
-    [<ic2:plate:13>, <ore:platePlatinum>, <ic2:plate:13>],
-    [<ore:circuitAdvanced>, <ore:energyCrystal>, <ore:circuitAdvanced>],
-    [<ic2:plate:13>, <ore:platePlatinum>, <ic2:plate:13>]
-]);
 
 removeExist(<ic2:crafting:4>);//укреплённая ирид платина
-recipes.addShaped(<ic2:crafting:4>, [
+recipes.addShapedMirrored(<ic2:crafting:4>, [
     [<ore:gemIridium>, <ic2:crafting:3>, <ore:gemIridium>],
     [<ore:gemIridium>, <ore:dustDiamond>, <ore:gemIridium>],
     [<ore:gemIridium>, <ic2:crafting:3>, <ore:gemIridium>]
-]);
-recipes.addShaped(<ic2:crafting:4>, [
-    [<ore:gemIridium>, <ore:gemIridium>, <ore:gemIridium>],
-    [<ic2:crafting:3>, <ore:dustDiamond>, <ic2:crafting:3>],
-    [<ore:gemIridium>, <ore:gemIridium>, <ore:gemIridium>]
 ]);
 
 removeExist(<ic2:hazmat_helmet>);//шлем акваланг
@@ -58,15 +48,10 @@ recipes.addShaped(<ic2:sheet> * 2, [
 ]);
 
 removeExist(<ic2:glass> * 7);//укреплённое стекло
-recipes.addShaped(<ic2:glass> * 3, [
+recipes.addShapedMirrored(<ic2:glass> * 3, [
     [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
     [<ic2:crafting:3>, <ore:blockGlass>, <ic2:crafting:3>],
     [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>]
-]);
-recipes.addShaped(<ic2:glass> * 3, [
-    [<ore:blockGlass>, <ic2:crafting:3>, <ore:blockGlass>],
-    [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
-    [<ore:blockGlass>,<ic2:crafting:3>,<ore:blockGlass>]
 ]);
 
 removeExist(<ic2:dust:6> * 9);//энергопыль
@@ -76,23 +61,18 @@ recipes.addShaped(<ic2:dust:6> * 4, [
     [<ore:dustRedstone>,<ore:dustDiamond>,<ore:dustRedstone>]
 ]);
 
-removeExist(<ic2:cable:1>);//стекловолокно
-recipes.addShaped(<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}) * 2, [
+removeExist(<ic2:crafting:108>);//стекловолокно
+recipes.addShapedMirrored(<ic2:crafting:108> * 2, [
     [<thermaldynamics:duct_0:4>, <ic2:crafting:13>, <thermaldynamics:duct_0:4>],
     [<ic2:dust:6>, <extendedcrafting:material:7>, <ic2:dust:6>],
     [<thermaldynamics:duct_0:4>,<ic2:crafting:13>, <thermaldynamics:duct_0:4>]
 ]);
-recipes.addShaped(<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}) * 2, [
-    [<thermaldynamics:duct_0:4>, <ic2:dust:6>, <thermaldynamics:duct_0:4>],
-    [<ic2:crafting:13>, <extendedcrafting:material:7>, <ic2:crafting:13>],
-    [<thermaldynamics:duct_0:4>,<ic2:dust:6>,<thermaldynamics:duct_0:4>]
-]);
 
 removeExist(<ic2:crafting:5>);//катушка
 recipes.addShaped(<ic2:crafting:5>, [
-    [<ore:itemCopperCable>, <ore:itemCopperCable>, <ore:itemCopperCable>],
-    [<ore:itemCopperCable>, <ore:plateIron>, <ore:itemCopperCable>],
-    [<ore:itemCopperCable>, <ore:itemCopperCable>, <ore:itemCopperCable>]
+    [<ic2:crafting:100>, <ic2:crafting:100>, <ic2:crafting:100>],
+    [<ic2:crafting:100>, <ore:plateIron>, <ic2:crafting:100>],
+    [<ic2:crafting:100>, <ic2:crafting:100>, <ic2:crafting:100>]
 ]);
 
 removeExist(<ic2:te:78>);//трансформатор СЧ
@@ -103,15 +83,17 @@ recipes.addShaped(<ic2:te:78>, [
 ]);
 
 removeExist(<ic2:te:77>);//трансформатор НЧ
-recipes.addShaped(<ic2:te:77>, [
-    [<ore:plankWood>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}), <ore:plankWood>],
+recipes.addShapedMirrored(<ic2:te:77>, [
+    [<ore:plankWood>, <ic2:crafting:105>, <ore:plankWood>],
     [<ore:plankWood>, <ic2:crafting:5>, <ore:plankWood>],
-    [<ore:plankWood>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}), <ore:plankWood>]
+    [<ore:plankWood>, <ic2:crafting:105>, <ore:plankWood>]
 ]);
-recipes.addShaped(<ic2:te:77>, [
-    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-    [<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}), <ic2:crafting:5>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})],
-    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+
+removeExist(<ic2:te:80>);//трансформатор СВН
+recipes.addShapedMirrored(<ic2:te:80>, [
+    [null, <ic2:crafting:105>, null],
+    [<ic2:crafting:2>, <ic2:te:79>, <ic2:lapotron_crystal:*>],
+    [null, <ic2:crafting:105>, null]
 ]);
 
 removeExist(<ic2:crafting:7>);//теплоотвод
@@ -123,15 +105,10 @@ recipes.addShaped(<ic2:crafting:7>, [
 
 
 removeExist(<ic2:resource:12>);//корпус механизма
-recipes.addShaped(<ic2:resource:12>, [
+recipes.addShapedMirrored(<ic2:resource:12>, [
     [<ore:plateIron>, null, <ore:plateIron>],
     [<ore:plateBasic>, null, <ore:plateBasic>],
     [<ore:plateIron>, null, <ore:plateIron>]
-]);
-recipes.addShaped(<ic2:resource:12>, [
-    [<ore:plateIron>, <ore:plateBasic>, <ore:plateIron>],
-    [null, null, null],
-    [<ore:plateIron>, <ore:plateBasic>, <ore:plateIron>]
 ]);
 recipes.addShaped(<ic2:resource:12>, [
     [<ore:plateIron>, <ore:blockGlassColorless>, <ore:plateIron>],
@@ -141,7 +118,7 @@ recipes.addShaped(<ic2:resource:12>, [
 
 removeExist(<ic2:re_battery:*>);
 recipes.addShaped(<ic2:re_battery:26>, [
-    [null, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}), null],
+    [null, <ic2:crafting:103>, null],
     [<ic2:casing:6>, <ore:dustEnergetic>, <ic2:casing:6>],
     [<ic2:casing:6>, <ore:dustEnergetic>, <ic2:casing:6>]
 ]);
@@ -162,7 +139,7 @@ recipes.addShaped(<ic2:te:72>, [
 
 removeExist(<ic2:advanced_re_battery:*>);
 recipes.addShaped(<ic2:advanced_re_battery>, [
-    [<ic2:casing>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}), <ic2:casing>],
+    [<ic2:casing>, <ic2:crafting:107>, <ic2:casing>],
     [<ic2:re_battery:*>, <ic2:re_battery:*>, <ic2:re_battery:*>],
     [<ic2:casing>, <ic2:casing>, <ic2:casing>]
 ]);
@@ -196,22 +173,15 @@ recipes.addShaped(<ic2:te:43>, [
 ]);
 
 removeExist(<ic2:te:79>);
-recipes.addShaped(<ic2:te:79>, [
-    [null, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}), null],
+recipes.addShapedMirrored(<ic2:te:79>, [
+    [null, <ic2:crafting:107>, null],
     [<ic2:energy_crystal:*>, <ic2:te:78>, <ic2:energy_crystal:*>],
-    [null, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}), null]
-]);
-recipes.addShaped(<ic2:te:79>, [
-    [null, <ic2:energy_crystal:*>, null],
-    [<ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}), <ic2:te:78>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte})],
-    [null, <ic2:energy_crystal:*>, null]
+    [null, <ic2:crafting:107>, null]
 ]);
 
 removeExist(<ic2:te:21>);
 recipes.addShaped(<ic2:te:21>, [
-    [null, null, null],
-    [<ic2:crafting:29>, <ic2:te:11>, <ic2:crafting:29>],
-    [null, null, null]
+    [<ic2:crafting:29>, <ic2:te:11>, <ic2:crafting:29>]
 ]);
 
 removeExist(<ic2:te:5>);
@@ -250,15 +220,10 @@ recipes.addShaped(<ic2:crafting:34>, [
 ]);
 
 removeExist(<ic2:te:135>);
-recipes.addShaped(<ic2:te:135>, [
+recipes.addShapedMirrored(<ic2:te:135>, [
     [<ic2:iridium_reflector>, <ic2:afb_crystal:*>, <ic2:iridium_reflector>],
     [<ic2:resource:13>, <ic2:te:75>, <ic2:resource:13>],
     [<ic2:iridium_reflector>, <ic2:afb_crystal:*>, <ic2:iridium_reflector>]
-]);
-recipes.addShaped(<ic2:te:135>, [
-    [<ic2:iridium_reflector>, <ic2:resource:13>, <ic2:iridium_reflector>],
-    [<ic2:afb_crystal:*>, <ic2:te:75>, <ic2:afb_crystal:*>],
-    [<ic2:iridium_reflector>, <ic2:resource:13>, <ic2:iridium_reflector>]
 ]);
 
 removeExist(<ic2:refractory_bricks>);
@@ -275,7 +240,7 @@ recipes.addShaped(<ic2:te:36> * 2, [
     [<minecraft:glowstone>, <minecraft:glowstone>, <minecraft:glowstone>]
 ]);
 
-var gold_cable = <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte});
+var gold_cable = <ic2:crafting:107>;
 
 removeExist(<ic2:te:76>);
 recipes.addShaped(<ic2:te:76>, [
@@ -297,6 +262,3 @@ recipes.addShaped(<ic2:barrel>, [
     [<forestry:wood_pile>, <growthcraft_cellar:ferment_barrel>, <forestry:wood_pile>],
     [null, <forestry:wood_pile>, null]
 ]);
-
-mods.nuclearcraft.pressurizer.addRecipe([<ic2:dust:34>, <minecraft:emerald>, 40, 10]);
-mods.ic2.Compressor.addRecipe(<minecraft:emerald>, <ic2:dust:34>);

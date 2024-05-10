@@ -1,27 +1,18 @@
 import mods.extendedcrafting.TableCrafting;
 
-val copper_cable = <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte});
-
 removeExist(<ic2:crafting:1>);
 recipes.removeShapeless(<ic2:crafting:1>);
 recipes.addShaped(<ic2:crafting:1>, [
-    [copper_cable, copper_cable, copper_cable],
+    [<ic2:crafting:101>, <ic2:crafting:101>, <ic2:crafting:101>],
     [<nuclearcraft:compound:2>, <ore:plateIron>, <nuclearcraft:compound:2>],
-    [copper_cable, copper_cable, copper_cable]
+    [<ic2:crafting:101>, <ic2:crafting:101>, <ic2:crafting:101>]
 ]);
 
 removeExist(<ic2:crafting:2>);
-
-recipes.addShaped(<ic2:crafting:2>, [
+recipes.addShapedMirrored(<ic2:crafting:2>, [
     [<minecraft:redstone>, <ic2:dust:9>, <minecraft:redstone>],
     [<nuclearcraft:compound:2>, <ic2:crafting:1>, <nuclearcraft:compound:2>], 
     [<minecraft:redstone>, <ic2:dust:9>, <minecraft:redstone>]
-]);
-
-recipes.addShaped(<ic2:crafting:2>, [
-    [<minecraft:redstone>, <nuclearcraft:compound:2>, <minecraft:redstone>],
-    [<ic2:dust:9>, <ic2:crafting:1>, <ic2:dust:9>], 
-    [<minecraft:redstone>, <nuclearcraft:compound:2>, <minecraft:redstone>]
 ]);
 
 removeExist(<ic2:crafting:44>);

@@ -7,8 +7,6 @@ Dissolver.removeRecipe(<minecraft:diamond_ore>);
 Dissolver.removeRecipe(<minecraft:jukebox>);
 Dissolver.removeRecipe(<ic2:crafting:15>);
 
-removeExist(<alchemistry:fusion_core>);
-
 Dissolver.addRecipe(<ic2:crafting:15>, true, 1,
 [[100, <alchemistry:element:6> * 56]]);
 
