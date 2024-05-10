@@ -50,3 +50,5 @@ Scanner.addRecipe(<minecraft:redstone_block>, 11000);
 Scanner.addRecipe(<ic2:resource:1>, 1500);
 Scanner.addRecipe(<ic2:resource:3>, 1700);
 Scanner.addRecipe(<minecraft:coal:1>, 31000);
+
+Scanner.addRecipe(<ic2:ingot:8>, 11000);
