@@ -52,3 +52,4 @@ Scanner.addRecipe(<ic2:resource:3>, 1700);
 Scanner.addRecipe(<minecraft:coal:1>, 31000);
 
 Scanner.addRecipe(<ic2:ingot:8>, 11000);
+Scanner.addRecipe(<appliedenergistics2:material>, 5000);
