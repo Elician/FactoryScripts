@@ -30,3 +30,5 @@ MolecularTransformer.addRecipe(<thermalfoundation:storage:6>, <minecraft:gold_bl
 MolecularTransformer.addRecipe(<noxus_utilities:netherite_ingot>, <noxus_utilities:netherite_scrap>, 10000000);
 MolecularTransformer.addRecipe(<forestry:resources>, <growthcraft:salt_ore>, 200000);
 MolecularTransformer.addRecipe(<ic2:misc_resource:1>, <minecraft:iron_ingot>, 2100000000);
+MolecularTransformer.addRecipe(<alchemistry:ingot:24>, <thermalfoundation:material:136>, 10000000);
+MolecularTransformer.addRecipe(<appliedenergistics2:material>, <minecraft:quartz>, 1000000);
