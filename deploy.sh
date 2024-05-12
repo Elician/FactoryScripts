@@ -17,13 +17,9 @@ base64tar=$(base64 ${tar_files} -w 0)
 func_write_temp_json() {
   echo "{
         \"mod_pack_id\": ${mod_pack_id},
-        \"data\": \"${base64tar}\",
-        \"syncing\": {
-            \"servers_prod\": ${servers_prod},
-            \"servers_dev\": ${servers_dev},
-            \"client_prod\": ${client_prod},
-            \"client_dev\": ${client_dev}
-        }
+        \"servers_ids\": ${servers_ids},
+        \"profiles_ids\": ${profiles_ids},
+        \"data\": \"${base64tar}\"
       }" >> temp.json
 }
 func_write_temp_json
